@@ -1,0 +1,97 @@
+/*General container*/
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/*Etiquetas y campos*/
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/*Botones del index*/
+#index-buttons button {
+    width: 180px;
+    height: 40px;
+    margin: 10px auto;
+    border-radius: 0;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/*Ejercicio1*/
+#index-buttons button:nth-child(1) {
+    background-color: #6a0dad;
+}
+
+#index-buttons button:nth-child(1):hover {
+    background-color: #4b0680;
+}
+
+#index-buttons button:nth-child(2) {
+    background-color: #90ee90;
+    color: #004d00;
+}
+
+#index-buttons button:nth-child(2):hover {
+    background-color: #70d070;
+}
+
+.blue-btn {
+    margin-top: 20px;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.blue-btn:hover {
+    background-color: #0056b3;
+}
+
+/*Botón de volver a inicio*/
+.back-btn {
+    margin-top: 10px;
+    background-color: #6c757d;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.back-btn:hover {
+    background-color: #5a6268;
+}
+
+/*Resultado*/
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
